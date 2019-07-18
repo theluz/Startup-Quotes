@@ -22,9 +22,13 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CKA-Ox-KbV">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEXTO AQUI VERTICAL VARIAS LINHAS COM FRASES TOP" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="1xE-7H-kfW">
                                 <rect key="frame" x="31" y="61" width="313" height="565"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="50"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="shadowOffset" width="0.0" height="2"/>
@@ -36,21 +40,26 @@
                             <constraint firstItem="y36-CX-egO" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="4p2-Bl-f0K"/>
                             <constraint firstItem="y36-CX-egO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9LN-df-2UL"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1xE-7H-kfW" secondAttribute="bottom" constant="41" id="EZU-Wc-MZp"/>
+                            <constraint firstItem="CKA-Ox-KbV" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="QSK-HS-68f"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1xE-7H-kfW" secondAttribute="trailing" constant="31" id="W95-bo-RNn"/>
+                            <constraint firstItem="CKA-Ox-KbV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WGc-Gs-YIs"/>
                             <constraint firstItem="1xE-7H-kfW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="31" id="atg-v6-A0E"/>
+                            <constraint firstItem="CKA-Ox-KbV" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="btH-An-bSC"/>
+                            <constraint firstItem="CKA-Ox-KbV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ras-wn-4sx"/>
                             <constraint firstItem="y36-CX-egO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="rat-Vj-e3K"/>
                             <constraint firstItem="1xE-7H-kfW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="41" id="tb3-36-mFi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="imageLayer" destination="CKA-Ox-KbV" id="ndc-Sp-rUQ"/>
                         <outlet property="quoteBackground" destination="y36-CX-egO" id="4kr-vm-3Cw"/>
                         <outlet property="quoteLabel" destination="1xE-7H-kfW" id="APh-gW-dUo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131.25" y="138.38028169014083"/>
+            <point key="canvasLocation" x="130.40000000000001" y="138.0809595202399"/>
         </scene>
     </scenes>
     <resources>
