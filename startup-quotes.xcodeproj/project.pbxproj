@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED1558E122E20BA600778DFA /* FrederickatheGreat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED1558DD22E20BA600778DFA /* FrederickatheGreat-Regular.ttf */; };
+		ED1558E222E20BA600778DFA /* BungeeShade-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED1558DE22E20BA600778DFA /* BungeeShade-Regular.ttf */; };
+		ED1558E322E20BA600778DFA /* BungeeOutline-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED1558DF22E20BA600778DFA /* BungeeOutline-Regular.ttf */; };
+		ED1558E422E20BA600778DFA /* JacquesFrancoisShadow-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED1558E022E20BA600778DFA /* JacquesFrancoisShadow-Regular.ttf */; };
 		ED1906F722DE5DBA005043EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1906F622DE5DBA005043EA /* AppDelegate.swift */; };
 		ED1906F922DE5DBA005043EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1906F822DE5DBA005043EA /* ViewController.swift */; };
 		ED1906FC22DE5DBA005043EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1906FA22DE5DBA005043EA /* Main.storyboard */; };
@@ -15,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED1558CF22E1EE5200778DFA /* startup-quotes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "startup-quotes"; sourceTree = "<group>"; };
+		ED1558DD22E20BA600778DFA /* FrederickatheGreat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FrederickatheGreat-Regular.ttf"; sourceTree = "<group>"; };
+		ED1558DE22E20BA600778DFA /* BungeeShade-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BungeeShade-Regular.ttf"; sourceTree = "<group>"; };
+		ED1558DF22E20BA600778DFA /* BungeeOutline-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BungeeOutline-Regular.ttf"; sourceTree = "<group>"; };
+		ED1558E022E20BA600778DFA /* JacquesFrancoisShadow-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JacquesFrancoisShadow-Regular.ttf"; sourceTree = "<group>"; };
 		ED1906F322DE5DBA005043EA /* startup-quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "startup-quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1906F622DE5DBA005043EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED1906F822DE5DBA005043EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +44,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED1558DC22E20B8B00778DFA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ED1558DF22E20BA600778DFA /* BungeeOutline-Regular.ttf */,
+				ED1558DE22E20BA600778DFA /* BungeeShade-Regular.ttf */,
+				ED1558DD22E20BA600778DFA /* FrederickatheGreat-Regular.ttf */,
+				ED1558E022E20BA600778DFA /* JacquesFrancoisShadow-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		ED1906EA22DE5DBA005043EA = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +77,11 @@
 				ED1906F622DE5DBA005043EA /* AppDelegate.swift */,
 				ED1906F822DE5DBA005043EA /* ViewController.swift */,
 				ED1906FA22DE5DBA005043EA /* Main.storyboard */,
+				ED1558CF22E1EE5200778DFA /* startup-quotes */,
 				ED1906FD22DE5DBD005043EA /* Assets.xcassets */,
 				ED1906FF22DE5DBD005043EA /* LaunchScreen.storyboard */,
 				ED19070222DE5DBD005043EA /* Info.plist */,
+				ED1558DC22E20B8B00778DFA /* Fonts */,
 			);
 			path = "startup-quotes";
 			sourceTree = "<group>";
@@ -122,9 +144,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1558E222E20BA600778DFA /* BungeeShade-Regular.ttf in Resources */,
 				ED19070122DE5DBD005043EA /* LaunchScreen.storyboard in Resources */,
+				ED1558E322E20BA600778DFA /* BungeeOutline-Regular.ttf in Resources */,
+				ED1558E122E20BA600778DFA /* FrederickatheGreat-Regular.ttf in Resources */,
 				ED1906FE22DE5DBD005043EA /* Assets.xcassets in Resources */,
 				ED1906FC22DE5DBA005043EA /* Main.storyboard in Resources */,
+				ED1558E422E20BA600778DFA /* JacquesFrancoisShadow-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
